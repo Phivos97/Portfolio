@@ -2227,7 +2227,13 @@ input[type="radio"] + label:before {
 
 .image.fit img {
   width: 100%;
-  height: 200px;
+  height: 12rem;
+}
+
+@media screen and (min-width: 2000px) {
+  .image.fit img {
+    height: 15rem;
+  }
 }
 
 .image.avatar {
